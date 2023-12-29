@@ -37,19 +37,15 @@ public class App
 			{
 			case 1:
 				create(session, sc);
-				//            	trans.commit();
 				break;
 			case 2:
 				update(session, sc);
-				//            	trans.commit();
 				break;
 			case 3:
 				delete(session, sc);
-				//            	trans.commit();
 				break;
 			case 4:
 				retrive(session, sc);
-				//            	trans.commit();
 				break;
 			default:
 				b=false;
